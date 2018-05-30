@@ -4,7 +4,7 @@ body {
 
 h1 {
   font-family: sans-serif;
-  font-size: 40px;
+  font-size: 2.5em;
   color: red;
   text-align: center;
   border: 0.2em dotted black;
@@ -17,14 +17,14 @@ span {
 
 h3 {
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 0.9375em;
 }
 
 p {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3.125em;
 }
 
 div {
@@ -32,9 +32,15 @@ div {
 }
 
 @media(min-width: 660px) {
-
+  body {
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
 }
 
 @media(min-width: 940px) {
-
+  body {
+    margin-left: 12.5em;
+    margin-right: 12.5em;
+  }
 }

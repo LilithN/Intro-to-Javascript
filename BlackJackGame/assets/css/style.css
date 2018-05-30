@@ -31,6 +31,10 @@ div {
   text-align: center;
 }
 
+button {
+  font-size: 1.25em;
+}
+
 @media(min-width: 660px) {
   body {
     margin-left: 3.125em;

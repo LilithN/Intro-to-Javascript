@@ -1,6 +1,9 @@
 $(document).ready(function() {
-  $("#clickMe1").click(function(callingSign) {
-    var sign = prompt("Type your anwser here!").toLowerCase();
+
+
+  $("#submit").click(function(callingSign) {
+    var sign = $("#input").toLowerCase();
+    //var sign = prompt("Type your anwser here!").toLowerCase();
     switch (sign) {
 
       case "aries":

@@ -1,3 +1,39 @@
 body {
   background-image: url(../images/stars.png);
+  text-align: center;
+}
+h1 {
+  opacity: 1;
+  color: #02024b;
+  text-align: center;
+  font-family: 'Markazi Text', serif;
+  font-size: 3em;
+  margin-bottom: 1.5em;
+}
+p{
+  opacity: 1;
+  color: #02024b;
+  text-align: center;
+  font-family: 'Markazi Text', serif;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+div {
+  background-color: white;
+  opacity: 0.5;
+  text-align: center;
+  padding: 50px;
+}
+button {
+background-color: #02024b;
+ border-radius: 25px;
+ color: white;
+ padding: 6px 20px;
+ text-align: center;
+ display: inline-block;
+ font-size: 1.2em;
+ opacity: 1;
+}
+#clickMe2 {
+  display: none;
 }

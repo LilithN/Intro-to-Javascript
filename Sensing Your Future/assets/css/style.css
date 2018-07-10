@@ -41,22 +41,20 @@ background-color: #02024b;
 form {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
   align-items: center;
 }
 input[type="text"] {
+  margin-top: 20px;
   background-color: #02024b;
   width: 15%;
   padding: 0.3em;
   color: white;
   font-family: 'Markazi Text', serif;
   font-size: 1.5em;
+  border: 4.5px solid #868cb4;
+  margin-bottom: 2px;
 }
-input[type="submit"] {
-  background-color: #02024b;
-  width: 15%;
-  padding: 0.3em;
-  color: white;
-  font-family: 'Markazi Text', serif;
-  font-size: 1.5em;
+#submit {
+  width: 16%;
+  cursor: pointer;
 }

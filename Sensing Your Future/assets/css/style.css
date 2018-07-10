@@ -1,6 +1,7 @@
 body {
   background-image: url(../images/stars.png);
   text-align: center;
+  background-position: center;
 }
 h1 {
   opacity: 1;
@@ -36,4 +37,26 @@ background-color: #02024b;
 }
 #clickMe2 {
   display: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  align-items: center;
+}
+input[type="text"] {
+  background-color: #02024b;
+  width: 15%;
+  padding: 0.3em;
+  color: white;
+  font-family: 'Markazi Text', serif;
+  font-size: 1.5em;
+}
+input[type="submit"] {
+  background-color: #02024b;
+  width: 15%;
+  padding: 0.3em;
+  color: white;
+  font-family: 'Markazi Text', serif;
+  font-size: 1.5em;
 }

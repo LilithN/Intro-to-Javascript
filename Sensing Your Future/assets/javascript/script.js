@@ -1,10 +1,10 @@
-$(document).ready(function() {
 
+  function callingSign() {
+    var sign = $("#input").val().toLowerCase();
+    window.alert(sign);
 
-  $("#submit").click(function(callingSign) {
-    var sign = $("#input").toLowerCase();
-    //var sign = prompt("Type your anwser here!").toLowerCase();
-    switch (sign) {
+  }
+    /*switch (sign) {
 
       case "aries":
         $("#text").text("Calculating Your Future for Aries...");

@@ -35,9 +35,7 @@ background-color: #02024b;
  font-size: 1.2em;
  opacity: 1;
 }
-#clickMe2 {
-  display: none;
-}
+
 form {
   display: flex;
   flex-direction: column;

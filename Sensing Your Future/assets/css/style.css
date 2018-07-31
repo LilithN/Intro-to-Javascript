@@ -17,7 +17,7 @@ p{
   text-align: center;
   font-family: 'Markazi Text', serif;
   font-size: 2em;
-  margin-bottom: 1.5em;
+  margin-bottom: -0.5em;
 }
 div {
   background-color: white;
@@ -34,6 +34,11 @@ background-color: #02024b;
  display: inline-block;
  font-size: 1.2em;
  opacity: 1;
+}
+#clickMe {
+  display: none;
+  width: 16%;
+  cursor: pointer;
 }
 
 .form {

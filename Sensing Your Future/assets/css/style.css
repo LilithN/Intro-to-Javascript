@@ -36,10 +36,11 @@ background-color: #02024b;
  opacity: 1;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 1;
 }
 input[type="text"] {
   margin-top: 20px;
